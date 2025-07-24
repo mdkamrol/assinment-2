@@ -1,0 +1,522 @@
+
+.nav-father{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* all common color a style */
+
+.black-color{
+    color:#252432;   /* গাঢ় কালো রঙ */
+    
+}
+
+.halka-black{
+    color:#8987A1; /* হালকা কালো */
+}
+
+.bold-holod{
+    color:#E95A08;  /* উজ্জ্বল কমলা রঙ */
+}
+
+
+
+.nav-img{
+    width:135px;
+    height:80px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+ .nav-list-sao-father{
+    display: flex;
+    align-items: center;
+    gap:10px;
+} 
+
+.nav-list-sao{
+    height: 20px;
+
+}
+
+.nav-list-abba{
+    display: flex;
+    align-items: center; 
+}
+
+.banner{
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    justify-content: space-between;
+    
+   
+    
+    
+
+
+}
+
+.title{
+     font-weight: bold; 
+      
+      /* opacity: 0.57; */
+
+}
+
+.banner-box1{
+    flex:1;
+    padding:20px;
+    position: relative;
+    top:150px;
+
+   
+}
+
+.banner-box2 img{
+    width: 100%;
+    height: auto;
+    display:block;
+}
+
+.banner-box2{
+    
+    width: 570px;
+    height: 355px;
+}
+
+.banner-box1 {
+    width: 100%;
+    padding: 10px;
+}
+body {
+  overflow-x: hidden;
+}
+
+.main-title{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.main-subtitle{
+  font-size: 20px;
+  color:rgba(0, 0, 0, 0.5);
+  max-width: 680px;
+  text-align: center;
+  margin:0px auto;
+  margin-bottom:30px ;
+}
+
+.plants-title{
+  font-size: 20px;
+  font-weight: 900;
+   margin-bottom: -5px;
+  margin-top: 20px;
+  color:#111111;
+  text-align: center;
+}
+
+.plants-div h1{
+  font-size: 20px;
+  font-weight: bold;
+  color:#111111;
+  text-align: center;
+}
+
+.btn{
+  font-size: 15px;
+  font-weight: 900;
+  color:#FFFFFF;
+  background-color: #E95A08;
+   width:100%; 
+  height: 50px;
+  transform: 3s;
+  border:none;
+}
+
+.btn:hover{
+  background-color: blue;
+}
+
+.plants-div-father{
+   display: flex;
+  gap:20px;
+  margin-bottom:20px; 
+  width: 100%; 
+}
+
+.plants-all-img{
+  width: 100%;
+  height: auto;
+}
+
+.plants-d{
+  margin-bottom: 0px;
+}
+
+.plants-div{
+  width: 100%;
+   max-width: 396px;
+  box-sizing: border-box;
+  
+}
+
+.plants-lover-father{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.plants-lover-title{
+  font-size: 50px;
+  font-weight:bold ;
+}
+
+.plants-lover-list li{
+  font-weight: 20px;
+  margin-bottom: 20px;
+  color:rgba(0, 0, 0, 0.5);
+}
+
+.plants-lover-abba{
+  width: 440px;
+}
+.plants-lover-img img{
+  width: 100%;
+
+}
+
+.trusted-img{
+  position: relative; 
+  width: 280px;
+  bottom: -30px;
+  left:340px;
+  z-index:1;
+
+
+  
+}
+
+.trusted-img-sao2{
+  position: relative;
+  top:-120px;
+ 
+}
+
+
+
+  
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  .plants-lover-father{
+    flex-direction: column;
+  }
+
+  .trusted-img{
+    display: none;
+    padding: 20px;
+  }
+  .plants-title{
+    font-size: 15px;
+    font-weight: 900;
+
+  }
+
+  .plants-title1{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .btn{
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .plants-div-father{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+  }
+
+  .plants-div img{
+    margin-top: 20px;
+   width: 100%;
+  height: auto;
+ 
+  
+}
+
+.plants-div{
+  width: 100%;
+  height: auto;
+  padding:20px;
+  margin-bottom: -60px;
+  
+  
+  
+ 
+
+}
+
+
+  .plants-div-father{
+    flex-direction: column;
+    
+
+}
+
+
+  .main-title{
+    font-size: 24px;
+  }
+
+  .main-subtitle{
+    font-size: 15px;
+    width:100% ;
+    margin:0px auto;
+    margin-top: -5px;
+  }
+
+  .main-m{
+    margin-top: -80px;
+  }
+
+
+
+   .nav-list{
+    display: none;
+   }
+
+   .nav-img{
+    width: 60px;
+    height: 38px;
+   }
+
+   .nav-list-sao-father{
+    width: 113px;
+    height: 24px;
+
+   }
+    .all-father-w {
+    width: 100%;  
+    margin: 0 ;
+  }
+  .banner-box2 img{
+    width: 100%;
+    height: auto;
+     display:block;
+    
+}
+
+.subtitle{
+    width: 100%;
+}
+
+.banner{
+     flex-direction: column-reverse; 
+     margin-top: 30px;
+    
+}
+.banner-box1{
+    width: 100%;
+    padding:10px;
+    margin-top: -100px;
+    
+}
+
+.banner-box1 h1{
+    opacity: 100%;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+
+  .banner-box2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-box1{
+    padding:20px;
+  }
+
+  .nav-list-abba {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-list-sao-father {
+    width: auto;
+  }
+
+  .banner {
+    padding: 0;
+  }
+
+  .title {
+    font-size: 32px;
+    position: static;
+    margin-bottom: 10px;
+    opacity: 1;
+  }
+
+
+.banner-box1 {
+    position: static;
+    top: 0;
+    margin-top: 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .banner-box1 h1 {
+    font-size: 28px;  
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+    .banner {
+    overflow-x: hidden;
+    max-width: 100vw;  
+  }
+  .banner-box2 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .plants-div-father {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+
+  .plants-div {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .plants-all-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .btn{
+    margin-bottom: 40px;
+  }
+
+
+ .plants-lover-img{
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  box-sizing: border-box;
+  margin-top: 150px;
+  padding: 20px;
+
+
+
+ }
+
+ .plants-lover-abba{
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  box-sizing: border-box;
+  margin-top: -150px;
+  padding: 20px;
+ }
+
+ .plants-lover-title{
+  font-size: 24px;
+ }
+
+ .br{
+  display: none;
+ }
+
+ .plants-lover-list{
+  font-size: 15px;
+ }
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
+/* বড় স্ক্রিনের জন্য */
+@media screen and (min-width: 993px) {
+
+  /* .plants-all-img{
+  width: 270px;
+  height: auto;
+} */
+  
+  .all-father-w {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+  }
+  .banner-box1{
+    padding-right:570px;
+    position: relative;
+    top:225px
+    
+    
+  }
+
+
+  .subtitle{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: -10px;
+    position: absolute;
+    bottom: 340px;
+   
+} 
+
+.banner-box2 img{
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+
+}
+
+@media screen and (max-width: 993px){
+
+  .plants-all-img{
+  width: 220px;
+  height: auto;
+
+}
+}
